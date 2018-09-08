@@ -1,17 +1,26 @@
-  {
-    "name": "Internal Journal",
-    "version": "1.0",
-    "description": "Build an Extension!",
-    "permissions": ["activeTab","declarativeContent", "storage"],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
-	"options_page": "options.html",
-	"browser_action": {
+{
+  "name": "Internal Journal",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "browser_action": {
     "default_icon": "icon.png",
-	"default_popup": "popup.html"
-   },
-
-    "manifest_version": 2
-  }
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "manifest_version": 2
+}
