@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Calender</title>
 
-    <!-- DO NOT CHANGE THE ORDER OF IMPORT -->
+    <!-- DO NOT CHANGE THE ORDER OF IMPORTS -->
     <script src='lib/jquery.min.js'></script>
 
     <link rel="stylesheet" href="lib/bootstrap.min.css">
@@ -15,32 +15,7 @@
     <script src='lib/moment.min.js'></script>
     <script src='lib/fullcalendar.min.js'></script>
 
-    <script>
-        $(function () {
-
-            // page is now ready, initialize the calendar...
-
-            $('#calendar').fullCalendar({
-                header: {
-                    left: 'month, list, agenda',
-                    center: 'title',
-                    right: 'today, prev, next'
-                },
-                themeSystem: 'bootstrap4',
-                buttonText: {
-                    prev: '< Previous',
-                    next: 'Next >',
-                    today: 'Today',
-                    month: 'Month',
-                    list: 'List',
-                    agenda: 'Agenda'
-                }
-            })
-
-        });
-
-        var calendar = $('#calendar').fullCalendar('getCalendar');
-    </script>
+    <script src="calendar_init.js"></script>
 </head>
 <body>
 <div id='calendar'></div>

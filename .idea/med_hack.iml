@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="scheduler" level="project" />
+    <orderEntry type="library" name="jQuery" level="project" />
+    <orderEntry type="library" name="fullcalendar" level="project" />
+    <orderEntry type="library" name="moment" level="project" />
+    <orderEntry type="library" name="bootstrap" level="project" />
+    <orderEntry type="library" name="@types/chrome" level="application" />
   </component>
 </module>
