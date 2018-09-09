@@ -19,7 +19,13 @@ $(function () {
             agenda: 'Agenda'
         },
         selectable:'true',
-        nowIndicator:'true'
+        nowIndicator:'true',
+        aspectRatio:'1.6',
+        events:[{
+            title:'Bloating',
+            start:'2018-09-08T21:30:00',
+            end:'2018-09-08T22:30:00'
+        }]
     })
 
 });
